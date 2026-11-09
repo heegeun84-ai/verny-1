@@ -11,7 +11,6 @@ const LINKS = [
   { no: "04", label: "Details", href: "/details" },
   { no: "05", label: "Lookbook", href: "/lookbook" },
   { no: "06", label: "Instagram", href: "/instagram" },
-  { no: "07", label: "Order", href: "/order" },
 ];
 
 function Wordmark({ size = 26 }: { size?: number }) {
@@ -108,7 +107,6 @@ export default function SideNav() {
             <span style={{ color: "var(--navy)", fontWeight: 500 }}>KR</span>
             <span>EN</span>
           </div>
-          <Link href="/order" style={{ letterSpacing: "0.14em" }}>CS · 문의</Link>
           <span>㈜베러스 · VERNY</span>
         </div>
       </aside>

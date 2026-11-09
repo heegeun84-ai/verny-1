@@ -30,9 +30,6 @@ export default function OrderCta() {
             <div className="cta-row" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
               <a href={SHOP.buy} {...EXT} className="btn btn-gold">네이버 구매</a>
             </div>
-            <a href="/order" style={{ display: "inline-block", marginTop: 16, fontSize: 12.5, letterSpacing: "0.08em", color: "var(--ink-soft)", borderBottom: "1px solid var(--line)", paddingBottom: 2 }}>
-              세금계산서·단체주문 문의 →
-            </a>
           </div>
         </Reveal>
 
